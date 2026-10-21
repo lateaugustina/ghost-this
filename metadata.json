@@ -1,0 +1,6 @@
+{
+  "name": "Haunted Retro Terminal",
+  "description": "Master static hero composition integrating vintage CRT ghost artwork into a gothic pixel-art haunted mansion.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

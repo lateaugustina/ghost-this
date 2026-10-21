@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-pixel {
+    font-family: 'Silkscreen', 'Press Start 2P', monospace;
+    -webkit-font-smoothing: none;
+    -moz-osx-font-smoothing: grayscale;
+    font-smooth: never;
+    text-rendering: geometricPrecision;
+  }
+
+  .font-pixel-title {
+    font-family: 'Press Start 2P', 'Silkscreen', monospace;
+    -webkit-font-smoothing: none;
+    -moz-osx-font-smoothing: grayscale;
+    font-smooth: never;
+  }
+
+  /* Vintage Typewriter and Handwriting Fonts */
+  .font-typewriter {
+    font-family: 'Special Elite', 'Courier Prime', Courier, monospace;
+    letter-spacing: -0.01em;
+  }
+
+  .font-courier {
+    font-family: 'Courier Prime', Courier, monospace;
+  }
+
+  .font-handwriting {
+    font-family: 'Caveat', cursive;
+  }
+
+  /* Retro Terminal / Teletype Font (VT323) */
+  .font-terminal {
+    font-family: 'VT323', 'Courier Prime', monospace;
+    letter-spacing: 0.03em;
+  }
+
+  /* Stepped pixel corner cuts (4px steps) */
+  .pixel-cut {
+    clip-path: polygon(
+      0 4px, 2px 4px, 2px 2px, 4px 2px, 4px 0,
+      calc(100% - 4px) 0, calc(100% - 4px) 2px, calc(100% - 2px) 2px, calc(100% - 2px) 4px, 100% 4px,
+      100% calc(100% - 4px), calc(100% - 2px) calc(100% - 4px), calc(100% - 2px) calc(100% - 2px), calc(100% - 4px) calc(100% - 2px), calc(100% - 4px) 100%,
+      4px 100%, 4px calc(100% - 2px), 2px calc(100% - 2px), 2px calc(100% - 4px), 0 calc(100% - 4px)
+    );
+  }
+
+  /* Thermal paper receipt perforated tear edge */
+  .receipt-tear-bottom {
+    clip-path: polygon(
+      0% 0%, 100% 0%, 100% calc(100% - 4px),
+      95% 100%, 90% calc(100% - 4px), 85% 100%, 80% calc(100% - 4px),
+      75% 100%, 70% calc(100% - 4px), 65% 100%, 60% calc(100% - 4px),
+      55% 100%, 50% calc(100% - 4px), 45% 100%, 40% calc(100% - 4px),
+      35% 100%, 30% calc(100% - 4px), 25% 100%, 20% calc(100% - 4px),
+      15% 100%, 10% calc(100% - 4px), 5% 100%, 0% calc(100% - 4px)
+    );
+  }
+}
+

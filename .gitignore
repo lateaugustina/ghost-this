@@ -1,0 +1,15 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+
+ghost-this.zip
+ghost-this-assets-baseline.zip
+
+.aistudio/
+public/ghost-things-release.zip
+public/ghost-things-v0.1-assets-baseline.zip
