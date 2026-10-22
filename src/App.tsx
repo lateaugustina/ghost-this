@@ -602,7 +602,7 @@ export default function App() {
                         }}
                       >
                         {/* Dialogue Text with Authentic Pixel Font */}
-                        <div className="font-pixel text-[#fdf8fc] text-center tracking-wider text-[11px] sm:text-[12px] md:text-[13px] leading-snug select-none flex items-center justify-center [text-shadow:1px_1px_0_#2b123d]">
+                        <div className="font-pixel text-[#fdf8fc] text-center tracking-wider text-[16px] md:text-[11px] md:text-[13px] leading-snug select-none flex items-center justify-center [text-shadow:1px_1px_0_#2b123d]">
                           <span className="text-[#dfa9bf] font-bold mr-1.5 opacity-90">{'>'}</span>
                           <span>{displayedText}</span>
                           {/* Blinking Pixel Block Cursor */}
