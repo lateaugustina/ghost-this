@@ -728,7 +728,7 @@ export default function App() {
                               disabled={ghostList.length >= 10}
                               autoFocus
                               maxLength={48}
-                              className="w-full bg-transparent border-none outline-none font-pixel text-[#fdf8fc] text-[11px] sm:text-[12px] tracking-wider [text-shadow:1px_1px_0_#2b123d] shrink min-w-0 disabled:opacity-40"
+                              className="w-full bg-transparent border-none outline-none font-pixel text-[#fdf8fc] text-[16px] md:text-[11px] tracking-wider [text-shadow:1px_1px_0_#2b123d] shrink min-w-0 disabled:opacity-40"
                             />
                             {/* Blinking cursor when input is empty */}
                             {inputValue === '' && ghostList.length < 10 && (
