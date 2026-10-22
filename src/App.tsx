@@ -696,7 +696,7 @@ export default function App() {
                         }}
                       >
                         {/* Short Prompt Label: "Type them down" with counter */}
-                        <div className="w-full font-pixel text-[#fdf8fc] text-[11px] sm:text-[12px] md:text-[13px] tracking-wider flex items-center justify-between [text-shadow:1px_1px_0_#2b123d] select-none">
+                        <div className="w-full font-pixel text-[#fdf8fc] text-[16px] md:text-[11px] md:text-[13px] tracking-wider flex items-center justify-between [text-shadow:1px_1px_0_#2b123d] select-none">
                           <span className="flex items-center gap-1.5">
                             <span className="text-[#dfa9bf] font-bold opacity-90">{'>'}</span>
                             <span>{ghostList.length >= 10 ? '10/10 entries complete' : 'Type them down'}</span>
